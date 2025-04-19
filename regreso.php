@@ -1,0 +1,1 @@
+<a href="panel.php" class="btn-float">🏠 Panel</a>

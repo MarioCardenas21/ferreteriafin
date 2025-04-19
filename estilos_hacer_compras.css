@@ -1,0 +1,113 @@
+
+body {
+    font-family: 'Roboto', sans-serif; /* Usar una fuente de Material Design */
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Fondo claro y neutro */
+}
+
+header {
+    background-color: #1e122f; /* Color primario de Material Design */
+    color: white;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    padding: 24px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+select, input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    background-color: #f9f9f9; /* Fondo ligero para los inputs */
+    transition: all 0.3s ease;
+}
+
+select:focus, input[type="number"]:focus {
+    border-color: #1e122f; /* Color de enfoque consistente */
+    background-color: #ffffff; /* Cambio de fondo al enfocar */
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Sombra al enfocar */
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #1e122f; /* Color primario para los botones */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    width: 100%;
+    margin-top: 12px;
+}
+
+button:hover {
+    background-color: #3700b3; /* Color más oscuro en hover */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* Efecto de elevación */
+}
+
+button:active {
+    background-color: #1e122f;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Efecto al hacer clic */
+}
+
+a {
+    display: inline-block;
+    text-align: center;
+    padding: 12px 24px;
+    margin-top: 24px;
+    background-color: #f5f5f5;
+    color: #1e122f;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: #eeeeee; /* Hover más suave */
+    color: #1e122f; /* Color de texto en hover */
+}
+
+footer {
+    text-align: center;
+    margin-top: 32px;
+    font-size: 14px;
+    color: #757575; /* Color gris para el pie de página */
+}
+
+/* Efecto de sombras sutiles */
+.shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
